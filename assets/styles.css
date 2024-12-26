@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    transition: background 1.5s ease-in-out; /* Smooth background transition */
+}
+
+.container {
+    padding: 20px;
+}
+
+.mood-button {
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.happy { background-color: #f39c12; }
+.calm { background-color: #3498db; }
+.excited { background-color: #e74c3c; }
+
+.songs {
+    margin-top: 20px;
+}
+
+.song {
+    margin: 5px;
+    font-size: 16px;
+}
+
+audio {
+    margin-top: 10px;
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
